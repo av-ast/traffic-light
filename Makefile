@@ -24,6 +24,9 @@ clean:
 deps:
 	./rebar get-deps
 
+test:
+	./rebar eunit
+
 compile: deps
 	./rebar compile
 	./rebar xref skip_apps=goldrush
