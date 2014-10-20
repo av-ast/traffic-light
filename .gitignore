@@ -8,3 +8,8 @@ ebin
 rel/example_project
 .concrete/DEV_MODE
 .rebar
+*.swp
+*.deb
+/build/
+/traffic_light/
+test.config

@@ -1,0 +1,14 @@
+{application, traffic_light,
+ [
+  {description, "Traffic Light"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager,
+                  cowboy
+                 ]},
+  {mod, { traffic_light_app, []}},
+  {env, []}
+ ]}.
