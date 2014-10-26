@@ -9,7 +9,7 @@ A simple REST service which is designed to help people in their fight with broke
 
 ## Requirements
 
-* Erlang R16
+* Erlang R17.0 or higher
 * Ruby with [fpm](https://github.com/jordansissel/fpm) gem installed
 
 ## How to Build and Run
