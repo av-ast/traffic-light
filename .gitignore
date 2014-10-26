@@ -13,3 +13,4 @@ rel/example_project
 /build/
 /traffic_light/
 test.config
+log

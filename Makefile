@@ -38,6 +38,10 @@ run: clean
 	make OVERLAY_VARS=files/vars-dev.config
 	./$(PROJECT)/bin/$(PROJECT) console
 
+dev_run: build
+	erl -pa apps/traffic_light/ebin -pa deps/*/ebin \
+		-sname traffic_light -s traffic_light_app -s sync go
+
 deb: clean build
 	mkdir -p $(PACKAGE_DIR)/etc/init.d
 	mkdir -p $(PACKAGE_DIR)/etc/$(PROJECT)

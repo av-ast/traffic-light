@@ -10,5 +10,8 @@
                   cowboy
                  ]},
   {mod, { traffic_light_app, []}},
-  {env, []}
+  {env, [
+          {cowboy_port, 5000},
+          {cowboy_acceptors_num, 100}
+        ]}
  ]}.
