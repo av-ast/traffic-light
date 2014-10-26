@@ -1,7 +1,7 @@
 Traffic Light
 =============
 
-[![Build Status](https://travis-ci.org/av-ast/traffic-light.png?branch=master)](https://travis-ci.org/av-ast/traffic-light)
+[![Build Status](https://travis-ci.org/av-ast/traffic-light.svg)](https://travis-ci.org/av-ast/traffic-light)
 
 ## Summary
 
